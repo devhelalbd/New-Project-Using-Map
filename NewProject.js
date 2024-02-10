@@ -81,7 +81,8 @@ dev.map((item,index)=>{
     setTimeout(() =>{
         console.log(`
         Name: ${item.Name},
-        Skill: ${item.Skill}
+        Skill: ${item.Skill}.
+        Dristict: ${item.Home_Dristict}
         `);
     }, 1000 * index)
 })
