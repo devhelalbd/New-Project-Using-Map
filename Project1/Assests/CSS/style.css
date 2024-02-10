@@ -1,0 +1,64 @@
+/* Outfit Font  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Open Sans Font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Outfit', sans-serif;
+}
+p,a,span{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+:root{
+    --Text-color: #ffffff;
+    --global-color-secondary: #01BDB2;
+    --global-color-primary: #142959;
+    --Text-color-2: #6D7A8C;
+}
+/* Start Header CSS code  */
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.header-row{
+    background-color: var(--global-color-primary);
+}
+.top-header-container{
+    background-color: var(--global-color-secondary);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top-left ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+}
+.top-left ul li{
+    border-right: 1px solid var(--Text-color);
+    padding-right: 10px;
+}
+.top-left ul li a{
+    color: var(--Text-color);
+    font-size: 14px;
+}
+.top-right{
+    display: flex;
+    gap: 10px;
+}
+.top-right span a i{
+    color: var(--Text-color);
+}
